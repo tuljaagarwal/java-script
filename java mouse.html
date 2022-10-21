@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1 onmouseover="style.color='red'" 
+onmouseout="style.color='black'">Tulja's Mouse Events</h1>
+<p>NEVER TALK ABOUT MY WIFE</p>
+<script>
+function bigImg(x) {
+  x.style.height = "400px";
+  x.style.width = "400px";
+}
+
+function normalImg(x) {
+  x.style.height = "100px";
+  x.style.width = "100px";
+}
+</script>
+</head>
+<body>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://media0.giphy.com/media/CnRmpfxlPutVAFChvm/200w.gif?cid=82a1493b4kn9udj39rqxwl3rm3k5i63lmf850ydur7eo6bw4&rid=200w.gif&ct=g" alt="Smiley" width="32" height="32">
+
+
+
+</body>
+</html>
